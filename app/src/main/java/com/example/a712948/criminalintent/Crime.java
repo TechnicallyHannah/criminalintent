@@ -7,8 +7,6 @@ import java.util.UUID;
  * @since 8/7/15.
  */
 public class Crime {
-    ​
-
     private UUID mId;
     private String mTitle;
 
@@ -23,12 +21,10 @@ public class Crime {
     public UUID getId() {
         return mId;
     }
-    
+
     public Crime() {
 
         //generate unique identifier
         mId = UUID.randomUUID();
     }
-
-    ​
 }
